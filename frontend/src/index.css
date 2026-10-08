@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --vh-violet-600: #7020c9;
+    --vh-violet-300: #b98cf0;
+    --vh-pink: #f067ab;
+    --vh-lavender-soft: #f4ecff;
+    --vh-lavender-white: #fcffff;
+
+    --vh-surface-1: #fdfaff;
+    --vh-surface-2: #f7efff;
+    --vh-surface-3: #efe2ff;
+
+    --vh-ink: #3b1560;
+    --vh-text: #4a2a70;
+    --vh-muted: #7a6699;
+    --vh-muted-2: #a394bd;
+
+    --vh-border: #ece0fc;
+
+    --vh-danger: #e0447c;
+
+    --vh-focus-ring: rgba(185, 140, 240, 0.25);
+}
+
+html,
+body,
+#root {
+    margin: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--vh-surface-2);
+    color: var(--vh-text);
+}
