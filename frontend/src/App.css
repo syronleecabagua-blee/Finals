@@ -607,9 +607,7 @@ button:disabled {
     opacity: 0.6;
 }
 
-/* =========================
-   HINT BUTTON
-========================= */
+/*HINT BUTTON*/
 
 .hint-button {
     flex: 0 0 auto;

@@ -715,14 +715,16 @@ function Game() {
                             <button
                                 type="button"
                                 className="hint-button"
-                                onClick={() => setShowHint(true)}
+                                onClick={handleHint}
                                 disabled={
                                     isShowingResult ||
                                     loading ||
-                                    !hint
+                                    gameOver ||
+                                    !hint ||
+                                    (score <= 0 && !freeHintAvailable)
                                 }
                             >
-                                Hint
+                                {freeHintAvailable && score === 0 ? "Free Hint" : "Hint -1"}
                             </button>
 
                             <button
